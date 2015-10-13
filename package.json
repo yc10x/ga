@@ -1,0 +1,33 @@
+{
+  "name": "ga",
+  "version": "1.0.0",
+  "description": "group avatar generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src/ga.js -o index.js --optional runtime"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yingchn/ga.git"
+  },
+  "keywords": [
+    "group",
+    "avatar"
+  ],
+  "author": {
+    "email": "c41y1n9@gmail.com",
+    "name": "caiying"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yingchn/ga/issues"
+  },
+  "homepage": "https://github.com/yingchn/ga#readme",
+  "dependencies": {
+    "gm": "^1.20.0"
+  },
+  "devDependencies": {
+    "babel-runtime": "^5.8.25"
+  }
+}
